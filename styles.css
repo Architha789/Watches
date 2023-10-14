@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: url(omega.jpg);
+    /* Add blur effect */
+    backdrop-filter: blur(4px);
+}
+.banner{
+    height: 650px;
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.ban1{
+    
+    position: absolute;
+    top: 10px;
+    right: 150px;
+    left: 160px;
+    letter-spacing:2.5px;
+    font-family: 'Jura', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+ #p4{
+color: red;
+font-weight: bold;
+font-size: 20px;
+}
+.ban2{
+    
+    position: absolute;
+    top: 30px;
+    right: 265px;
+    left: 160px;
+    /* text-align: center; */
+    letter-spacing: 5px;
+    font-weight: lighter;
+
+    font-family: 'Jura', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.ban3{
+    position: absolute;
+    top: 55px;
+    right: 150px;
+    left: 160px;
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.ban4{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    left: 150px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-stretch:wider;
+}
+.ban5{
+    position: absolute;
+    top: 450px;
+    right: 150px;
+    left:200px;
+}
+.ban6{
+    position: absolute;
+    top: 500px;
+    right: px;
+    left: 200px;
+    right: 200px;
+}
+.ban7{
+    position: absolute;
+    top: 525px;
+    right: 200px;
+    left: 225px;
+}
+.ban8{
+    position: absolute;
+    top: 550px;
+    right: 225px;
+    left: 200px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.ban9{
+    position: absolute;
+    top:400px ;
+    right: 10px;
+    left: 400px;
+    font-weight: bold;
+    
+}
+#p5:hover{
+    color: red;
+}
+.ban10{
+    position: absolute;
+    top:420px ;
+    right: 10px;
+    left: 400px;
+    
+    font-weight: bold;
+ 
+}
+.ban11{
+    position: absolute;
+    top:450px ;
+    right: 10px;
+    left: 400px;
+
+}
+.ban11:hover{
+    color: rgb(126, 208, 247);
+}
+.ban12{
+    position: absolute;
+    top:500px ;
+    right: 10px;
+    left: 400px;
+
+}
+.ban12:hover{
+    color: #fcfbfb;
+}
+.ban13{
+    position: absolute;
+    top:575px ;
+    right: 300px;
+    left: 10px;
+    
+    }
+.btn{
+    color: #fcfbfb;
+    font-weight: bold;
+    background-color:rgba(29, 28, 27, 0.301) ;
+    padding: 5px 80px 5px 10px;
+    border-style: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 1;
+    background-color: rgb(27, 150, 233);
+    color: rgb(247, 249, 252);
+    transition:0.3s;
+}
+@media screen and (max-width: 930px) and (max-width: 1200px){
+    .banner{
+          text-align: center;
+          margin: auto;
+    }
+}
